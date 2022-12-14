@@ -1,6 +1,6 @@
 # SRoUDA: Meta Self-training for Robust Unsupervised Domain Adaptation
 
-This is the official code for AAAI'23 "Meta Self-training for Robust Unsupervised Domain Adaptation". The paper can be download [here](https://wilds.stanford.edu/).
+This is the official code for AAAI'23 "Meta Self-training for Robust Unsupervised Domain Adaptation". The paper can be download [here](http://arxiv.org/abs/2212.05917).
 
 ## Prerequisites
 - python >= 3.6
@@ -68,12 +68,11 @@ CUDA_VISIBLE_DEVICES=0 python main.py --root data/digits -d Digits -s SVHNRGB -t
   --no-hflip --norm-mean 0.5 0.5 0.5 --norm-std 0.5 0.5 0.5 -a dtn --no-pool --total-steps 20000 --teacher_lr 1e-4 --student_lr 0.01 --Matebatch-size 16 --mu 8 --scratch --seed 0 --model-path UDA_pretrain/logs/mdd/SVHN2MNIST/checkpoints/best.pth --log logs/mdd/SVHN2MNIST --name SVHN2MNIST
 ```
 
-[//]: # (## Citation)
+## Citation
 
-[//]: # (If you use our methods in your research, please consider citing.)
-
-[//]: # ()
-[//]: # (```)
+If you use our methods in your research, please consider citing.
 
 [//]: # ()
 [//]: # (```)
+
+```
