@@ -72,7 +72,11 @@ CUDA_VISIBLE_DEVICES=0 python main.py --root data/digits -d Digits -s SVHNRGB -t
 
 If you use our methods in your research, please consider citing.
 
-[//]: # ()
-[//]: # (```)
+```
+@inproceedings{Zhu2022SRoUDAMS,
+  title={SRoUDA: Meta Self-training for Robust Unsupervised Domain Adaptation},
+  author={Wanqing Zhu and Jia-Li Yin and Bo-Hao Chen and Ximeng Liu},
+  year={2022}
+}
 
 ```
